@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'RMDownloadAdapter_Example' do
+  pod 'RMDownloadAdapter', :path => '../'
+
+  target 'RMDownloadAdapter_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
