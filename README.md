@@ -9,6 +9,19 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+or
+
+From your terminal, if you have cocoapods installed - run this command
+
+```ruby
+pod try RMDownloadAdapter
+```
+
+If you do not have cocoapods, then first install it by running this command
+```ruby
+sudo gem install cocoapods
+```
+
 ## Requirements
 
 ## Installation
@@ -19,6 +32,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "RMDownloadAdapter"
 ```
+
+or just download/clone this repo and copy past the class files
+
 
 ## Author
 
