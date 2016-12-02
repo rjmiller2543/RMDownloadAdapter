@@ -207,6 +207,7 @@ NSString *const RMDownloadAdapterErrorDomain = @"RMDownloadAdapterErrorDomain";
         downloadModelForCache = downloadModel;
     }
     [self.downloadAdapterCache addObjectToCache:downloadModelForCache];
+    [self.concurrentDownloads removeObjectsInArray:arrayOfDownloadModelsWithURL];
 }
 
 - (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTask didWriteData:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite
