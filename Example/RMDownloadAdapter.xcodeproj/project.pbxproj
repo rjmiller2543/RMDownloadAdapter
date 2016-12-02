@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50028C651DEF478B0066C18E /* RMDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50028C641DEF478B0066C18E /* RMDCollectionViewController.m */; };
+		5004AE5B1DF1D8CA006FDCC0 /* RMDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004AE5A1DF1D8CA006FDCC0 /* RMDTableViewController.m */; };
+		5004AE651DF1EA95006FDCC0 /* RMDownloadAdapterUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004AE641DF1EA95006FDCC0 /* RMDownloadAdapterUnitTest.m */; };
+		5004AE671DF1F7E8006FDCC0 /* RMDownloadCacheUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5004AE661DF1F7E8006FDCC0 /* RMDownloadCacheUnitTest.m */; };
+		5055BB3A1DF0B24B00BCB1A6 /* exclamation_mark-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 5055BB391DF0B24B00BCB1A6 /* exclamation_mark-100.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RMDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RMDAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RMDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RMDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		80154706467173CBF21B4DAB /* Pods_RMDownloadAdapter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F45AB147B920917B828D03C /* Pods_RMDownloadAdapter_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C842F2FD2A8873A36C4311C5 /* Pods_RMDownloadAdapter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3BC9554896E6AF8EE62BA7 /* Pods_RMDownloadAdapter_Tests.framework */; };
@@ -36,7 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40D961D6DFE9738ABCAFDB80 /* RMDownloadAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RMDownloadAdapter.podspec; path = ../RMDownloadAdapter.podspec; sourceTree = "<group>"; };
+		40D961D6DFE9738ABCAFDB80 /* RMDownloadAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMDownloadAdapter.podspec; path = ../RMDownloadAdapter.podspec; sourceTree = "<group>"; };
+		50028C631DEF478B0066C18E /* RMDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDCollectionViewController.h; sourceTree = "<group>"; };
+		50028C641DEF478B0066C18E /* RMDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDCollectionViewController.m; sourceTree = "<group>"; };
+		5004AE591DF1D8CA006FDCC0 /* RMDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDTableViewController.h; sourceTree = "<group>"; };
+		5004AE5A1DF1D8CA006FDCC0 /* RMDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDTableViewController.m; sourceTree = "<group>"; };
+		5004AE641DF1EA95006FDCC0 /* RMDownloadAdapterUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadAdapterUnitTest.m; sourceTree = "<group>"; };
+		5004AE661DF1F7E8006FDCC0 /* RMDownloadCacheUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDownloadCacheUnitTest.m; sourceTree = "<group>"; };
+		5055BB391DF0B24B00BCB1A6 /* exclamation_mark-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation_mark-100.png"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RMDownloadAdapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMDownloadAdapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,21 +57,18 @@
 		6003F59B195388D20070C39A /* RMDownloadAdapter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMDownloadAdapter-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RMDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RMDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RMDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RMDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RMDownloadAdapter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMDownloadAdapter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		81717287E63028EF39D6AE13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81717287E63028EF39D6AE13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8F45AB147B920917B828D03C /* Pods_RMDownloadAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMDownloadAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BB9A1CEA724BF9E8B0492C /* Pods-RMDownloadAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMDownloadAdapter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMDownloadAdapter_Tests/Pods-RMDownloadAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A431B3D416EF3AA307ECCA52 /* Pods-RMDownloadAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMDownloadAdapter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMDownloadAdapter_Example/Pods-RMDownloadAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B9251C97DDC10E245DB6AEEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9251C97DDC10E245DB6AEEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD3BC9554896E6AF8EE62BA7 /* Pods_RMDownloadAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMDownloadAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BD487EF322C3C371AEF61 /* Pods-RMDownloadAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMDownloadAdapter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMDownloadAdapter_Tests/Pods-RMDownloadAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2B0D4036034176EAF864C94 /* Pods-RMDownloadAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMDownloadAdapter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMDownloadAdapter_Example/Pods-RMDownloadAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5004AE5F1DF1D8E9006FDCC0 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				5004AE591DF1D8CA006FDCC0 /* RMDTableViewController.h */,
+				5004AE5A1DF1D8CA006FDCC0 /* RMDTableViewController.m */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
+		5004AE631DF1D904006FDCC0 /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				50028C631DEF478B0066C18E /* RMDCollectionViewController.h */,
+				50028C641DEF478B0066C18E /* RMDCollectionViewController.m */,
+			);
+			name = "Collection View";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +158,8 @@
 				6003F59C195388D20070C39A /* RMDAppDelegate.h */,
 				6003F59D195388D20070C39A /* RMDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RMDViewController.h */,
-				6003F5A6195388D20070C39A /* RMDViewController.m */,
+				5004AE631DF1D904006FDCC0 /* Collection View */,
+				5004AE5F1DF1D8E9006FDCC0 /* Table View */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -145,6 +170,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5055BB391DF0B24B00BCB1A6 /* exclamation_mark-100.png */,
 				6003F595195388D20070C39A /* RMDownloadAdapter-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -156,7 +182,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				5004AE641DF1EA95006FDCC0 /* RMDownloadAdapterUnitTest.m */,
+				5004AE661DF1F7E8006FDCC0 /* RMDownloadCacheUnitTest.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -244,10 +271,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RMD;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = rjmiller2543;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0810;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -276,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5055BB3A1DF0B24B00BCB1A6 /* exclamation_mark-100.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -391,7 +420,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RMDAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RMDViewController.m in Sources */,
+				5004AE5B1DF1D8CA006FDCC0 /* RMDTableViewController.m in Sources */,
+				50028C651DEF478B0066C18E /* RMDCollectionViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +430,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				5004AE651DF1EA95006FDCC0 /* RMDownloadAdapterUnitTest.m in Sources */,
+				5004AE671DF1F7E8006FDCC0 /* RMDownloadCacheUnitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +478,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -487,13 +523,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -543,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA7BD487EF322C3C371AEF61 /* Pods-RMDownloadAdapter_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -558,6 +600,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMDownloadAdapter_Example.app/RMDownloadAdapter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -567,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95BB9A1CEA724BF9E8B0492C /* Pods-RMDownloadAdapter_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -578,6 +622,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMDownloadAdapter_Example.app/RMDownloadAdapter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

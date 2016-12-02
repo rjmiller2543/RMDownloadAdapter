@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'RMDownloadAdapter_Example' do
   pod 'RMDownloadAdapter', :path => '../'
+  pod 'MBProgressHUD'
 
   target 'RMDownloadAdapter_Tests' do
     inherit! :search_paths
