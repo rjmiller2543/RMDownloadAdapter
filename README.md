@@ -35,6 +35,40 @@ pod "RMDownloadAdapter"
 
 or just download/clone this repo and copy past the class files
 
+To use, simply import into your implementation file
+
+```objective-c
+#import <RMDownloadAdapter/RMDownloadAdapter.h>
+```
+
+Create and use the RMDownloadAdapter by init, or use the sharedInstance if sharing Cache among different controllers
+and calling the start download or cancel methods with an optional progress and a mandatory completion handler
+
+```objective-c
+RMDownloadAdapter *downloadAdapter = [[RMDownloadAdapter alloc] init];
+
+NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+
+RMDownloadAdapterCompletionBlock completionBlock = ^(id object, NSError *error) {
+    imageView.image = object;
+};
+
+[downloadAdapter startDownloadWithURLString:@"https://i.redd.it/2tm3btii5g0y.jpg" withClass:[UIImage class] indexPath:indexPath progressBlock:nil completionBlock:completionBlock];
+
+```
+
+or
+
+```objective-c
+NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+
+RMDownloadAdapterCompletionBlock completionBlock = ^(id object, NSError *error) {
+    imageView.image = object;
+};
+
+[[RMDownloadAdapter sharedInstance] startDownloadWithURLString:@"https://i.redd.it/2tm3btii5g0y.jpg" withClass:[UIImage class] indexPath:indexPath progressBlock:nil completionBlock:completionBlock];
+```
+
 
 ## Author
 
